@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Andrey Derkach Home Work</title>
+
+    <style>
+      body {background: #77e98f;}
+      table, th, td {border-collapse: collapse;}
+      thead {text-align: center;}
+      .table-head {text-align: left;}
+      .table-main {width: 600px; margin: 40px auto; background: #fff; padding: 24px; box-shadow: 0 0 10px 0 gray;}
+      .logo {width: 120px; height: 56px; margin-top: 30px; padding-bottom: 5px;}
+      .link {color: #98A2B3; font-size: 15px;}
+      .border {border-bottom: 1px solid #e0e0e0;} 
+      .headtxt {color:#101828; font-size: 28px;}
+      .ptxt {color: #667085; font-size: 16px;}
+      .qty {color: #101828; font-size: 16px; padding-left: 110px; font-weight: 700; text-align: right;}
+      .price {color: #101828; font-size: 16px; font-weight: 700; text-align: right;}
+      .item {color: #667085; font-size: 15px; font-weight: 700;} 
+      .colum1 {color:#667085; font-size: 15px; text-align: left;}
+      .colum2 {color: #101828; font-size: 15px; padding-bottom: 10px; padding-top: 10px; padding-left: 110px; text-align: right;}
+      .colum3 {color: #101828; font-size: 15px; padding-bottom: 10px; padding-top: 10px; text-align: right;}
+      .columtotal {color: #667085; font-size: 15px; font-weight: 700;}
+      .totalsumm {color: #101828; font-size: 16px; font-weight: 700; text-align: right;}
+      .bottomtxt1 {color: #101828; font-size: 16px; padding-bottom: 10px;}
+      .bottomtxt2 {color: #667085; font-size: 15px;}
+      .adress {color: #667085; font-size: 15px; text-align: right;}
+    </style>
+  </head>
+  <body>
+    <div class="table-main">
+      <table>
+        <thead>
+          <tr>
+            <td colspan="3">
+              <a class="link" target="_blank" href="https://www.google.com/">View in browser</a>
+              <div>
+                <img class="logo" src="images/logo.png" alt="Acme Logo">
+              </div>
+              <div class="table-head">
+                <h1 class="headtxt">Functional Style</h1>
+                <p class="ptxt">Combine practicality and style effortlessly with our furniture, offering functional designs that enhance your living space
+                </p>
+              </div>
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border">
+            <td class="item">Item</td>
+            <td class="qty">QTY</td>
+            <td class="price">Price</td>
+          </tr>
+          <tr class="border">
+            <td class="colum1">Elegant Feast</td>
+            <td class="colum2">2</td>
+            <td class="colum3">$499.99</td>
+          </tr>
+          <tr class="border">
+            <td class="colum1">Modern Fusion</td>
+            <td class="colum2">2</td>
+            <td class="colum3">$699.99</td>
+          </tr>
+          <tr class="border">
+            <td class="colum1">Rustic Charm</td>
+            <td class="colum2">2</td>
+            <td class="colum3">$399.99</td>
+          </tr>
+          <tr class="border">
+            <td class="columtotal">Total</td>
+            <td class="colum2">6</td>
+            <td class="totalsumm">$3194.99</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">
+              <img class="logo" src="../home_work_2/images/logo.png" alt="Acme Logo">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3" class="bottomtxt1">Acme corporation</td>
+          </tr>
+          <tr>
+            <td class="bottomtxt2">Think different</td>
+            <td colspan="2" class="adress">123 Main Street Anytown, CA 12345</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </body>
+</html>
